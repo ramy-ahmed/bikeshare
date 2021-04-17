@@ -20,32 +20,36 @@ The Chicago and New York City files also have the following two columns:
 
 You will learn about bike share use in Chicago, New York City, and Washington by computing a variety of descriptive statistics. In this project, you'll write code to provide the following information:
 
-#1 Popular times of travel (i.e., occurs most often in the start time)
+### 1 Popular times of travel (i.e., occurs most often in the start time)
 
 - most common month
 - most common day of week
 - most common hour of day
 
-#2 Popular stations and trip
+### 2 Popular stations and trip
 
 - most common start station
 - most common end station
 - most common trip from start to end (i.e., most frequent combination of start station and end station)
 
-#3 Trip duration
+### 3 Trip duration
 
 - total travel time
 - average travel time
 
-#4 User info
+### 4 User info
 
 - counts of each user type
 - counts of each gender (only available for NYC and Chicago)
 - earliest, most recent, most common year of birth (only available for NYC and Chicago)
 
-## How to run this project
+## How to run this project?
 
-This project is depending on conda, you have to have a [https://conda.io/projects/conda/en/latest/user-guide/install/index.html]conda installed 
+You will need to have csv data files called (chicago.csv,
+new_york_city.csv,
+washington.csv)
+
+This project is depending on conda, you have to have a [conda installed](https://conda.io/projects/conda/en/latest/user-guide/install/index.html) 
 
 ```
 conda env create --file bikeshare_env.yml
